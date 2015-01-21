@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="io.cordova.Flibusta" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets">
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.nredko.flibusta" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets">
   <name>Flibusta</name>
-  <description>A blank project that uses Apache Cordova to help you build an app that targets multiple mobile platforms: Android, iOS, Windows, and Windows Phone.</description>
-  <author href="http://cordova.io" email="dev@cordova.apache.org">Apache Cordova Team </author>
+  <description>Reader for user comments in Flibusta library</description>
+  <author href="http://nredko.com" email="nredko@nredko.com">Nikolay Redko</author>
   <content src="index.html" />
   <access origin="*" />
   <preference name="SplashScreen" value="screen" />
   <preference name="windows-target-version" value="8.0" />
+  <preference name="ios-target-version" value="8.0" />
   <preference name="windows-phone-target-version" value="8.1" />
+  <preference name="StatusBarOverlaysWebView" value="true" />
+  <preference name="StatusBarBackgroundColor" value="#000000" />
+  <preference name="StatusBarStyle" value="default" />
+  <preference name="webviewbounce" value="false" />
+  <preference name="DisallowOverscroll" value="true" />
   <vs:plugin name="org.apache.cordova.statusbar" version="0.1.8" />
+  <vs:plugin name="org.apache.cordova.splashscreen" version="0.3.3" />
   <vs:platformSpecificValues />
 </widget>
